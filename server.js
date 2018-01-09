@@ -4,7 +4,7 @@ const MongoClient = require('mongodb').MongoClient;
 const bodyParser = require('body-parser');
 const app = express();
 
-const port = 8000;
+const port = process.env.PORT || 8080;
 
 require('./routes/index');
 app.use(require('./routes/index'))
