@@ -1,0 +1,18 @@
+{
+  "name": "nomato",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.9"
+  }
+}
